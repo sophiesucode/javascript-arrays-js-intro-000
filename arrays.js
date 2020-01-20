@@ -7,8 +7,7 @@ const array = [1]
 function addElementToBeginningOfArray(foo) {
   return ['foo', ...array];
 };
-
-function destructivelyAddElementToBeginningOfArray(foo){
- array.unshift('foo');
- return array;
+var addEl='foo'
+function destructivelyAddElementToBeginningOfArray(addEl){
+ array.unshift('addEl');
 };

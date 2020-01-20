@@ -21,6 +21,6 @@ function destructivelyAddElementToEndOfArray(array, foo){
   return array;
 }
 const newArray = [1, 2, 3]
-function accessElementInArray(array, 2){
- return array[2];
+function accessElementInArray(newArray, 2){
+ return newArray[2];
  }

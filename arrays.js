@@ -4,6 +4,6 @@ const array = [1]
 
 
 
-function addElementToBeginningOfArray(element, array) {
+function addElementToBeginningOfArray(foo,array) {
   return ['foo', ...array];
 };

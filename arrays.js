@@ -5,5 +5,5 @@ var newArray='foo'
 
 
 function addElementToBeginningOfArray(newArray, array) {
-  return [newArray, ...array];
+  return ['newArray', ...array];
 };

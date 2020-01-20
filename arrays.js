@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(array, foo){
   array.push('foo')
   return array;
 };
-const array = [1, 2, 3];
+const array = [1, 2, 3]
 function accessElementInArray([1,2,3],2){
  return array[2];
  }

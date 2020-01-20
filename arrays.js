@@ -20,5 +20,3 @@ function destructivelyAddElementToEndOfArray(array, foo){
   array.push('foo')
   return array;
 }
-
-

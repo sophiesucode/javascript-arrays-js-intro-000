@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(array, foo){
   array.push('foo')
   return array;
 }
-const newArray = [1, 2, 3]
-function accessElementInArray(newArray, 2){
- console.log(newArray[2]);
+const array = [1, 2, 3]
+function accessElementInArray(array, [2]){
+ console.log(array[2]);
  }

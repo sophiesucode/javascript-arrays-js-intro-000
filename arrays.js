@@ -4,7 +4,7 @@ const array = [1]
 
 
 
-function addElementToBeginningOfArray(foo) {
+function addElementToBeginningOfArray(array,foo) {
   return ['foo', ...array];
 };
 
